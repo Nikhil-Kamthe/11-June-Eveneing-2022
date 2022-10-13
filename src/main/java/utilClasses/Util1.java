@@ -9,6 +9,7 @@ import java.util.Properties;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -45,6 +46,12 @@ public class Util1 {
 		prop.load(file);
 		return prop.getProperty("key");
 		
+	}
+	
+	public static void hoverToElement(WebDriver driver, WebElement element)
+	{
+		Actions act = new Actions(driver);
+		act.moveToElement(element).perform();
 	}
 	
 	
