@@ -29,12 +29,14 @@ public class LoginPage extends Util1 {
 	
 	public void enterMailID() throws IOException
 	{
-		mailID.sendKeys(getConfigData("email"));
+		mailID.sendKeys(getConfigData("mail"));
 	}
+	
 	public void entePassword() throws IOException
 	{
 		password.sendKeys(getConfigData("password"));
 	}
+	
 	public void enterSubmit()
 	{
 		submit.click();

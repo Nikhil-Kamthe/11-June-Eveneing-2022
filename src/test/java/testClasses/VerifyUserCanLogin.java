@@ -34,6 +34,8 @@ public class VerifyUserCanLogin {
 	@Parameters("browser")
 	public void beforeClass(String browser) throws IOException {
 		
+		driver = Base1.getDriver(browser);
+		
 		htmlReporter = new ExtentHtmlReporter("ExtentReports\\reports.html");
 		
 		reports = new ExtentReports();
@@ -41,7 +43,7 @@ public class VerifyUserCanLogin {
 		
 		test = reports.createTest("VerifyUserCanLogin");
 		
-		driver = Base1.getDriver(browser);
+		
 	}
 	
 	@BeforeMethod

@@ -44,7 +44,7 @@ public class Util1 {
 		Properties prop = new Properties();
 		
 		prop.load(file);
-		return prop.getProperty("key");
+		return prop.getProperty(key);
 		
 	}
 	

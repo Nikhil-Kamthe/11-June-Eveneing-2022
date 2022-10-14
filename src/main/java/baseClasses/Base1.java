@@ -25,14 +25,7 @@ static WebDriver driver;
 			driver = new FirefoxDriver();
 		}
 		
-//		if(Util1.getConfigData("env").equals("qa")) {
-//			driver.get("https://www.flipkartqa.com/");
-//		}else if(Util1.getConfigData("env").equals("dev")){
-//			driver.get("https://www.flipkartdev.com/");
-//		}
-		
 		driver.get("https://www.flipkart.com/");
-		
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	}
