@@ -6,34 +6,13 @@
     <classes>
       <class name="testClasses.VerifyUserCanAddNewAddresses">
         <methods>
-          <include name="verifyUserCanOpenProfilePage"/>
           <include name="afterClass"/>
           <include name="afterMethod"/>
           <include name="beforeClass"/>
-          <include name="verifyUserAbleToAddAddress" invocation-numbers="0 1 2 3"/>
-          <include name="addAddress"/>
-          <include name="verifyUserIsOnProfilPage"/>
+          <include name="verifyUserAbleToAddAddress" invocation-numbers="1 2 3"/>
           <include name="beforeMethod"/>
         </methods>
       </class> <!-- testClasses.VerifyUserCanAddNewAddresses -->
-      <class name="testClasses.VerifyUserCanLogin">
-        <methods>
-          <include name="beforeMethod"/>
-          <include name="test1"/>
-          <include name="beforeClass"/>
-          <include name="afterMethod"/>
-          <include name="afterClass"/>
-        </methods>
-      </class> <!-- testClasses.VerifyUserCanLogin -->
-      <class name="testClasses.VerifyUserCanGetLowestPriceProduct">
-        <methods>
-          <include name="afterClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeMethod"/>
-          <include name="afterMethod"/>
-          <include name="getLowestPriceofProductFromEachPage"/>
-        </methods>
-      </class> <!-- testClasses.VerifyUserCanGetLowestPriceProduct -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

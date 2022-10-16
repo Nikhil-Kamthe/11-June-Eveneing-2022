@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-14T01:18:36 IST" name="Suite" finished-at="2022-10-14T01:18:58 IST" duration-ms="22146">
+  <suite started-at="2022-10-17T00:30:42 IST" name="Suite" finished-at="2022-10-17T00:31:00 IST" duration-ms="18082">
     <groups>
     </groups>
-    <test started-at="2022-10-14T01:18:36 IST" name="Test" finished-at="2022-10-14T01:18:58 IST" duration-ms="22146">
+    <test started-at="2022-10-17T00:30:42 IST" name="Test" finished-at="2022-10-17T00:31:00 IST" duration-ms="18082">
       <class name="testClasses.VerifyUserCanGetLowestPriceProduct">
-        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:testClasses.VerifyUserCanGetLowestPriceProduct@72bc6553]" started-at="2022-10-14T01:18:48 IST" name="beforeClass" finished-at="2022-10-14T01:18:48 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:testClasses.VerifyUserCanGetLowestPriceProduct@66982506]" started-at="2022-10-17T00:30:52 IST" name="beforeClass" finished-at="2022-10-17T00:30:52 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,37 +18,37 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.VerifyUserCanGetLowestPriceProduct@72bc6553]" started-at="2022-10-14T01:18:48 IST" name="beforeMethod" finished-at="2022-10-14T01:18:48 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.VerifyUserCanGetLowestPriceProduct@66982506]" started-at="2022-10-17T00:30:52 IST" name="beforeMethod" finished-at="2022-10-17T00:30:52 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyUserAbleToSearchProduct()[pri:1, instance:testClasses.VerifyUserCanGetLowestPriceProduct@72bc6553]" started-at="2022-10-14T01:18:48 IST" name="verifyUserAbleToSearchProduct" finished-at="2022-10-14T01:18:52 IST" duration-ms="3687" status="PASS">
+        <test-method signature="verifyUserAbleToSearchProduct()[pri:1, instance:testClasses.VerifyUserCanGetLowestPriceProduct@66982506]" started-at="2022-10-17T00:30:52 IST" name="verifyUserAbleToSearchProduct" finished-at="2022-10-17T00:30:53 IST" duration-ms="1087" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserAbleToSearchProduct -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.VerifyUserCanGetLowestPriceProduct@72bc6553]" started-at="2022-10-14T01:18:52 IST" name="beforeMethod" finished-at="2022-10-14T01:18:52 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.VerifyUserCanGetLowestPriceProduct@66982506]" started-at="2022-10-17T00:30:53 IST" name="afterMethod" finished-at="2022-10-17T00:30:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.VerifyUserCanGetLowestPriceProduct@66982506]" started-at="2022-10-17T00:30:53 IST" name="beforeMethod" finished-at="2022-10-17T00:30:53 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.VerifyUserCanGetLowestPriceProduct@72bc6553]" started-at="2022-10-14T01:18:52 IST" name="afterMethod" finished-at="2022-10-14T01:18:52 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="getLowestPriceofProductFromEachPage()[pri:2, instance:testClasses.VerifyUserCanGetLowestPriceProduct@72bc6553]" started-at="2022-10-14T01:18:52 IST" name="getLowestPriceofProductFromEachPage" finished-at="2022-10-14T01:18:55 IST" duration-ms="2987" status="PASS">
+        <test-method signature="getLowestPriceofProductFromEachPage()[pri:2, instance:testClasses.VerifyUserCanGetLowestPriceProduct@66982506]" started-at="2022-10-17T00:30:53 IST" name="getLowestPriceofProductFromEachPage" finished-at="2022-10-17T00:30:57 IST" duration-ms="3572" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getLowestPriceofProductFromEachPage -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.VerifyUserCanGetLowestPriceProduct@72bc6553]" started-at="2022-10-14T01:18:55 IST" name="afterMethod" finished-at="2022-10-14T01:18:55 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:testClasses.VerifyUserCanGetLowestPriceProduct@72bc6553]" started-at="2022-10-14T01:18:55 IST" name="afterClass" finished-at="2022-10-14T01:18:55 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testClasses.VerifyUserCanGetLowestPriceProduct@66982506]" started-at="2022-10-17T00:30:57 IST" name="afterClass" finished-at="2022-10-17T00:30:57 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.VerifyUserCanGetLowestPriceProduct@66982506]" started-at="2022-10-17T00:30:57 IST" name="afterMethod" finished-at="2022-10-17T00:30:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
       </class> <!-- testClasses.VerifyUserCanGetLowestPriceProduct -->
       <class name="testClasses.VerifyUserCanLogin">
-        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:testClasses.VerifyUserCanLogin@25be7b63]" started-at="2022-10-14T01:18:36 IST" name="beforeClass" finished-at="2022-10-14T01:18:45 IST" duration-ms="9439" status="PASS">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:testClasses.VerifyUserCanLogin@28dcca0c]" started-at="2022-10-17T00:30:42 IST" name="beforeClass" finished-at="2022-10-17T00:30:49 IST" duration-ms="6796" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -59,25 +59,32 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.VerifyUserCanLogin@25be7b63]" started-at="2022-10-14T01:18:45 IST" name="beforeMethod" finished-at="2022-10-14T01:18:45 IST" duration-ms="26" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.VerifyUserCanLogin@28dcca0c]" started-at="2022-10-17T00:30:49 IST" name="beforeMethod" finished-at="2022-10-17T00:30:49 IST" duration-ms="21" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="test1()[pri:0, instance:testClasses.VerifyUserCanLogin@25be7b63]" started-at="2022-10-14T01:18:45 IST" name="test1" finished-at="2022-10-14T01:18:48 IST" duration-ms="2333" status="PASS">
+        <test-method signature="VerifyUserCanLogIn()[pri:0, instance:testClasses.VerifyUserCanLogin@28dcca0c]" started-at="2022-10-17T00:30:49 IST" name="VerifyUserCanLogIn" finished-at="2022-10-17T00:30:51 IST" duration-ms="2307" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.VerifyUserCanLogin@25be7b63]" started-at="2022-10-14T01:18:48 IST" name="afterMethod" finished-at="2022-10-14T01:18:48 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- VerifyUserCanLogIn -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClasses.VerifyUserCanLogin@28dcca0c]" started-at="2022-10-17T00:30:51 IST" name="afterMethod" finished-at="2022-10-17T00:30:51 IST" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyUserCanLogIn status=SUCCESS method=VerifyUserCanLogin.VerifyUserCanLogIn()[pri:0, instance:testClasses.VerifyUserCanLogin@28dcca0c] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:testClasses.VerifyUserCanLogin@25be7b63]" started-at="2022-10-14T01:18:48 IST" name="afterClass" finished-at="2022-10-14T01:18:48 IST" duration-ms="289" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testClasses.VerifyUserCanLogin@28dcca0c]" started-at="2022-10-17T00:30:51 IST" name="afterClass" finished-at="2022-10-17T00:30:52 IST" duration-ms="786" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- testClasses.VerifyUserCanLogin -->
       <class name="testClasses.VerifyUserCanAddNewAddresses">
-        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:testClasses.VerifyUserCanAddNewAddresses@66982506]" started-at="2022-10-14T01:18:55 IST" name="beforeClass" finished-at="2022-10-14T01:18:55 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:testClasses.VerifyUserCanAddNewAddresses@70cf32e3]" started-at="2022-10-17T00:30:57 IST" name="beforeClass" finished-at="2022-10-17T00:30:57 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -88,47 +95,47 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.VerifyUserCanAddNewAddresses@66982506]" started-at="2022-10-14T01:18:55 IST" name="beforeMethod" finished-at="2022-10-14T01:18:55 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.VerifyUserCanAddNewAddresses@70cf32e3]" started-at="2022-10-17T00:30:57 IST" name="beforeMethod" finished-at="2022-10-17T00:30:57 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyUserCanOpenProfilePage()[pri:1, instance:testClasses.VerifyUserCanAddNewAddresses@66982506]" started-at="2022-10-14T01:18:55 IST" name="verifyUserCanOpenProfilePage" finished-at="2022-10-14T01:18:55 IST" duration-ms="165" status="PASS">
+        <test-method signature="verifyUserCanOpenProfilePage()[pri:1, instance:testClasses.VerifyUserCanAddNewAddresses@70cf32e3]" started-at="2022-10-17T00:30:57 IST" name="verifyUserCanOpenProfilePage" finished-at="2022-10-17T00:30:57 IST" duration-ms="251" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserCanOpenProfilePage -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.VerifyUserCanAddNewAddresses@66982506]" started-at="2022-10-14T01:18:55 IST" name="afterMethod" finished-at="2022-10-14T01:18:55 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.VerifyUserCanAddNewAddresses@70cf32e3]" started-at="2022-10-17T00:30:57 IST" name="afterMethod" finished-at="2022-10-17T00:30:57 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="verifyUserIsOnProfilPage()[pri:2, instance:testClasses.VerifyUserCanAddNewAddresses@66982506]" started-at="2022-10-14T01:18:55 IST" name="verifyUserIsOnProfilPage" finished-at="2022-10-14T01:18:55 IST" duration-ms="443" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.VerifyUserCanAddNewAddresses@70cf32e3]" started-at="2022-10-17T00:30:57 IST" name="beforeMethod" finished-at="2022-10-17T00:30:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyUserIsOnProfilPage()[pri:2, instance:testClasses.VerifyUserCanAddNewAddresses@70cf32e3]" started-at="2022-10-17T00:30:57 IST" name="verifyUserIsOnProfilPage" finished-at="2022-10-17T00:30:57 IST" duration-ms="227" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserIsOnProfilPage -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.VerifyUserCanAddNewAddresses@66982506]" started-at="2022-10-14T01:18:55 IST" name="beforeMethod" finished-at="2022-10-14T01:18:55 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.VerifyUserCanAddNewAddresses@66982506]" started-at="2022-10-14T01:18:55 IST" name="afterMethod" finished-at="2022-10-14T01:18:55 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.VerifyUserCanAddNewAddresses@70cf32e3]" started-at="2022-10-17T00:30:57 IST" name="afterMethod" finished-at="2022-10-17T00:30:57 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.VerifyUserCanAddNewAddresses@66982506]" started-at="2022-10-14T01:18:55 IST" name="beforeMethod" finished-at="2022-10-14T01:18:55 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.VerifyUserCanAddNewAddresses@70cf32e3]" started-at="2022-10-17T00:30:57 IST" name="beforeMethod" finished-at="2022-10-17T00:30:57 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="addAddress()[pri:3, instance:testClasses.VerifyUserCanAddNewAddresses@66982506]" started-at="2022-10-14T01:18:55 IST" name="addAddress" finished-at="2022-10-14T01:18:55 IST" duration-ms="118" status="PASS">
+        <test-method signature="addAddress()[pri:3, instance:testClasses.VerifyUserCanAddNewAddresses@70cf32e3]" started-at="2022-10-17T00:30:57 IST" name="addAddress" finished-at="2022-10-17T00:30:57 IST" duration-ms="119" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addAddress -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.VerifyUserCanAddNewAddresses@66982506]" started-at="2022-10-14T01:18:55 IST" name="afterMethod" finished-at="2022-10-14T01:18:55 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.VerifyUserCanAddNewAddresses@70cf32e3]" started-at="2022-10-17T00:30:57 IST" name="afterMethod" finished-at="2022-10-17T00:30:57 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.VerifyUserCanAddNewAddresses@66982506]" started-at="2022-10-14T01:18:55 IST" name="beforeMethod" finished-at="2022-10-14T01:18:55 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.VerifyUserCanAddNewAddresses@70cf32e3]" started-at="2022-10-17T00:30:57 IST" name="beforeMethod" finished-at="2022-10-17T00:30:57 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyUserAbleToAddAddress(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:testClasses.VerifyUserCanAddNewAddresses@66982506]" started-at="2022-10-14T01:18:55 IST" name="verifyUserAbleToAddAddress" data-provider="testData" finished-at="2022-10-14T01:18:56 IST" duration-ms="686" status="PASS">
+        <test-method signature="verifyUserAbleToAddAddress(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:testClasses.VerifyUserCanAddNewAddresses@70cf32e3]" started-at="2022-10-17T00:30:57 IST" name="verifyUserAbleToAddAddress" data-provider="testData" finished-at="2022-10-17T00:30:58 IST" duration-ms="838" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -159,15 +166,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserAbleToAddAddress -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.VerifyUserCanAddNewAddresses@66982506]" started-at="2022-10-14T01:18:56 IST" name="afterMethod" finished-at="2022-10-14T01:18:56 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.VerifyUserCanAddNewAddresses@70cf32e3]" started-at="2022-10-17T00:30:58 IST" name="afterMethod" finished-at="2022-10-17T00:30:58 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.VerifyUserCanAddNewAddresses@66982506]" started-at="2022-10-14T01:18:56 IST" name="beforeMethod" finished-at="2022-10-14T01:18:56 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.VerifyUserCanAddNewAddresses@70cf32e3]" started-at="2022-10-17T00:30:58 IST" name="beforeMethod" finished-at="2022-10-17T00:30:58 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyUserAbleToAddAddress(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:testClasses.VerifyUserCanAddNewAddresses@66982506]" started-at="2022-10-14T01:18:56 IST" name="verifyUserAbleToAddAddress" data-provider="testData" finished-at="2022-10-14T01:18:57 IST" duration-ms="632" status="PASS">
+        <test-method signature="verifyUserAbleToAddAddress(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:testClasses.VerifyUserCanAddNewAddresses@70cf32e3]" started-at="2022-10-17T00:30:58 IST" name="verifyUserAbleToAddAddress" data-provider="testData" finished-at="2022-10-17T00:30:59 IST" duration-ms="669" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -198,15 +205,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserAbleToAddAddress -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.VerifyUserCanAddNewAddresses@66982506]" started-at="2022-10-14T01:18:57 IST" name="afterMethod" finished-at="2022-10-14T01:18:57 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.VerifyUserCanAddNewAddresses@70cf32e3]" started-at="2022-10-17T00:30:59 IST" name="afterMethod" finished-at="2022-10-17T00:30:59 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.VerifyUserCanAddNewAddresses@66982506]" started-at="2022-10-14T01:18:57 IST" name="beforeMethod" finished-at="2022-10-14T01:18:57 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.VerifyUserCanAddNewAddresses@70cf32e3]" started-at="2022-10-17T00:30:59 IST" name="beforeMethod" finished-at="2022-10-17T00:30:59 IST" duration-ms="80" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyUserAbleToAddAddress(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:testClasses.VerifyUserCanAddNewAddresses@66982506]" started-at="2022-10-14T01:18:57 IST" name="verifyUserAbleToAddAddress" data-provider="testData" finished-at="2022-10-14T01:18:57 IST" duration-ms="605" status="PASS">
+        <test-method signature="verifyUserAbleToAddAddress(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:testClasses.VerifyUserCanAddNewAddresses@70cf32e3]" started-at="2022-10-17T00:30:59 IST" name="verifyUserAbleToAddAddress" data-provider="testData" finished-at="2022-10-17T00:31:00 IST" duration-ms="493" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -237,15 +244,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserAbleToAddAddress -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.VerifyUserCanAddNewAddresses@66982506]" started-at="2022-10-14T01:18:57 IST" name="afterMethod" finished-at="2022-10-14T01:18:57 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.VerifyUserCanAddNewAddresses@66982506]" started-at="2022-10-14T01:18:57 IST" name="beforeMethod" finished-at="2022-10-14T01:18:57 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.VerifyUserCanAddNewAddresses@70cf32e3]" started-at="2022-10-17T00:31:00 IST" name="beforeMethod" finished-at="2022-10-17T00:31:00 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyUserAbleToAddAddress(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:testClasses.VerifyUserCanAddNewAddresses@66982506]" started-at="2022-10-14T01:18:57 IST" name="verifyUserAbleToAddAddress" data-provider="testData" finished-at="2022-10-14T01:18:58 IST" duration-ms="574" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.VerifyUserCanAddNewAddresses@70cf32e3]" started-at="2022-10-17T00:31:00 IST" name="afterMethod" finished-at="2022-10-17T00:31:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="verifyUserAbleToAddAddress(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:testClasses.VerifyUserCanAddNewAddresses@70cf32e3]" started-at="2022-10-17T00:31:00 IST" name="verifyUserAbleToAddAddress" data-provider="testData" finished-at="2022-10-17T00:31:00 IST" duration-ms="668" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -276,14 +283,14 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserAbleToAddAddress -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:testClasses.VerifyUserCanAddNewAddresses@66982506]" started-at="2022-10-14T01:18:58 IST" name="afterClass" finished-at="2022-10-14T01:18:58 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.VerifyUserCanAddNewAddresses@66982506]" started-at="2022-10-14T01:18:58 IST" name="afterMethod" finished-at="2022-10-14T01:18:58 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.VerifyUserCanAddNewAddresses@70cf32e3]" started-at="2022-10-17T00:31:00 IST" name="afterMethod" finished-at="2022-10-17T00:31:00 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testClasses.VerifyUserCanAddNewAddresses@70cf32e3]" started-at="2022-10-17T00:31:00 IST" name="afterClass" finished-at="2022-10-17T00:31:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
       </class> <!-- testClasses.VerifyUserCanAddNewAddresses -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
