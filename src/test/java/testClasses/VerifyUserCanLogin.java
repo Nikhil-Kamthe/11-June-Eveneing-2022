@@ -3,6 +3,8 @@ package testClasses;
 import java.io.IOException;
 
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
@@ -12,6 +14,7 @@ import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
 import baseClasses.Base1;
@@ -24,7 +27,7 @@ public class VerifyUserCanLogin {
 	
 	ExtentHtmlReporter htmlReporter;
 	ExtentReports reports;
-	ExtentTest test;
+	ExtentTest extentTest;
 	
 	
 	LoginPage lp;
@@ -41,7 +44,7 @@ public class VerifyUserCanLogin {
 		reports = new ExtentReports();
 		reports.attachReporter(htmlReporter);
 		
-		test = reports.createTest("VerifyUserCanLogin");
+		extentTest = reports.createTest("VerifyUserCanLogin");
 		
 		
 	}
@@ -53,7 +56,7 @@ public class VerifyUserCanLogin {
 	}
 		
 	@Test
-	public void test1() throws InterruptedException, IOException{
+	public void VerifyUserCanLogIn() throws InterruptedException, IOException{
 		
 		lp.enterMailID();
 		lp.entePassword();
@@ -61,23 +64,25 @@ public class VerifyUserCanLogin {
 
 		String profileName = hp.getProfileName();
 		
-		if(profileName.contains("Apurva")) {
-			System.out.println("User is logged in");
-		}else {
-			System.out.println("User is not logged in");
-		}
+		Assert.assertEquals(profileName, "Apurva", "Profile name is not matching");
+		
 	}
 	
 	@AfterMethod
-	public void afterMethod() {
-	
+	public void afterMethod(ITestResult result) {
+		
+		if (result.getStatus() == ITestResult.SUCCESS) {
+			extentTest.log(Status.PASS, "Test :" + result.getName());	
+		}else if(result.getStatus() == ITestResult.FAILURE) {
+			extentTest.log(Status.FAIL, "Test :" + result.getName());
+		}else if (result.getStatus() == ITestResult.SKIP) {
+			extentTest.log(Status.SKIP, "Test :" + result.getName());
+		}
 	}
 	
 	@AfterClass
 	public void afterClass() {
-		
 		reports.flush();
-		
 	}
 	
 	

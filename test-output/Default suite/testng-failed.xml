@@ -6,9 +6,9 @@
       <class name="testClasses.VerifyUserCanLogin">
         <methods>
           <include name="beforeMethod"/>
-          <include name="test1"/>
           <include name="beforeClass"/>
           <include name="afterMethod"/>
+          <include name="VerifyUserCanLogIn"/>
           <include name="afterClass"/>
         </methods>
       </class> <!-- testClasses.VerifyUserCanLogin -->
